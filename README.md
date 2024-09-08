@@ -72,21 +72,26 @@ Echo-main/
    cd client
    npm install
    ```
-4. Start the application:
+4. Navigate to the socket and install dependencies:
+   ```bash
+   cd socket
+   npm install
+   ```
+5. Start the application:
    - Backend (Express server):
      ```bash
      node index.js
      ```
-   - Frontend (React app):
-     ```bash
-     npm run dev
-     ```
-     - Socket IO (for Real-time messaging):
+   - Socket IO (for Real-time messaging):
      ```bash
      node index.js
      ```
+  - Frontend (React app):
+     ```bash
+     npm run dev
+     ```
 
-5. The app should now be running on `http://localhost:3000` for the client and `http://localhost:5000` for the server.
+6. The app should now be running on `http://localhost:5173` for the client and `http://localhost:3000` for the server and `http://localhost:5000` for socket.
 
 ## Conclusion
 Echo is a fully-featured real-time messaging app built using modern technologies for both the frontend and backend. It provides a secure and efficient communication platform with low latency and a user-friendly interface.
