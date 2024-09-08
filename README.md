@@ -86,7 +86,7 @@ Echo-main/
      ```bash
      node index.js
      ```
-  - Frontend (React app):
+    - Frontend (React app):
      ```bash
      npm run dev
      ```
